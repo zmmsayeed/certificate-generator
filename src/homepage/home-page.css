@@ -1,0 +1,13 @@
+.homepage-course-list, .logout {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.course-list-header {
+    font-size: 40px;
+}
+
+.error-message {
+    font-size: 40px;
+    vertical-align: middle
+}

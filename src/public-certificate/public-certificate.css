@@ -1,0 +1,10 @@
+.public-certificate-error {
+    font-size: 40px;
+    text-align: center;
+    
+}
+
+.public-certificate-error-body {
+    line-height: 500px;
+    vertical-align: middle;
+}

@@ -1,0 +1,26 @@
+{
+  "name": "certificate-generater",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://anushil05.github.io/certificate-generator",
+  "dependencies": {
+    "firebase": "^5.3.0",
+    "gh-pages": "^1.2.0",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "1.1.4",
+    "react-to-print": "^1.0.21",
+    "uniqid": "^5.0.3",
+    "uuid": "^3.3.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "eject": "react-scripts eject"
+  }
+}

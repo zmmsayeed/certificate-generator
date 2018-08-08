@@ -1,0 +1,44 @@
+.login-body {
+    background-color: #e6f2ff;
+}
+
+.login-container {
+    margin-top:10%;
+}
+
+.login-card {
+    background-color: #f4f4f4;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+}
+
+.login-logo-image {
+    display: block;
+    margin: auto;
+    padding: 20px;
+    height: 250px;
+    width: 200px;
+}
+
+.login-form {
+    max-width: 350px;
+    margin: auto;
+}
+
+.login-btn {
+    background-color: #0066FF;
+    color: #fff;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.create-new-account {
+    font-size: 1em;
+    text-align: center;
+    margin-top: 15px;
+    display: block;
+}
+
+.login-error {
+    font-size: small;
+    color: red;
+}

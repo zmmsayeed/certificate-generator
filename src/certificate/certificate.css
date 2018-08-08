@@ -1,0 +1,108 @@
+.certificate-card {
+    width: 29.7cm !important;
+    height: 42cm !important;
+    background-color: rgba(255,250,240, 0.8);
+}
+
+.certificate-background-large {
+    position: absolute;
+    top:0;
+    left:9.8cm;
+    width: 10cm;
+    background-color: rgba(51,204,255, 0.3);
+    height: 42cm;
+    display: block;
+    margin: auto;
+    margin-top:0px;
+    -ms-transform: skewX(25deg);
+    -webkit-transform: skewX(25deg);
+    transform: skewX(25deg)
+}
+
+.certificate-background-small {
+    position: absolute;
+    bottom:0;
+    left:7cm;
+    width: 10cm;
+    background-color: rgba(255,152,0, 0.4);
+    height: 11.9cm;
+    display: block;
+    margin: auto;
+    margin-top:0px;
+    -ms-transform: skewX(-50deg);
+    -webkit-transform: skewX(-50deg);
+    transform: skewX(-50deg);
+}
+
+.certificate-achivement {
+    margin-top: 3.8cm;
+    margin-left: 3cm;
+    text-transform: uppercase;
+    font-size: 1cm;
+}
+
+.certificate-course-text {
+    text-align: center;
+    font-size: 1.2cm;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 9.5cm;
+    margin-bottom: 1cm;
+}
+
+.certificate-Name-text {
+    text-align: center;
+    font-size: 1.2cm;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.certificate-usn-text {
+    text-align: center;
+    font-size: 0.8cm;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.certificate-certify-text {
+    text-align: center;
+    font-size: 0.6cm;
+    margin: 0.4cm 0; 
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.certificate-general-text {
+    text-align: center;
+    margin-top: 0.5cm;
+    font-size: 0.6cm;
+}
+
+.certificate-logo{
+    display: block;
+    width: 4cm;
+    height: 7cm;
+    top:0;
+    right: 0;
+    position: absolute;
+    margin-top: 3cm;
+    margin-right: 3cm;
+}
+
+.certificate-date-link {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin-left:2cm;
+    margin-bottom:2cm;
+    font-size: 0.6cm;
+}
+
+.certificate-signature {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-right:2cm;
+    margin-bottom:2cm;
+    font-size: 0.6cm;
+}
