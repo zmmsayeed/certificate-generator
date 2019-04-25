@@ -8,12 +8,12 @@ import HomePage from "./../homepage/home-page";
 import firebase from "firebase";
 
 var config = {
-    apiKey: "AIzaSyBp3l22NGr96ntSzdUrYnZiTx3tIHnwWEI",
-    authDomain: "saarthi-test.firebaseapp.com",
-    databaseURL: "https://saarthi-test.firebaseio.com",
-    projectId: "saarthi-test",
-    storageBucket: "saarthi-test.appspot.com",
-    messagingSenderId: "903078944289"
+  apiKey: "AIzaSyDqGAiZ4ClvA1HnPHeL9nKdlb4dQ-D3Vpw",
+  authDomain: "certificate-generator-7911d.firebaseapp.com",
+  databaseURL: "https://certificate-generator-7911d.firebaseio.com",
+  projectId: "certificate-generator-7911d",
+  storageBucket: "certificate-generator-7911d.appspot.com",
+  messagingSenderId: "971330613453"
 };
 firebase.initializeApp(config);
 
