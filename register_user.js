@@ -11,7 +11,6 @@ var config = {
   };
   firebase.initializeApp(config);
 
-
 var database = firebase.database();
 console.log("Success");
 
@@ -27,14 +26,14 @@ function writeUserData(userId, name, email, usn, courses) {
 var courses = {
     "Course1": {
         "date" : "24-12-2019",
-        "name" : "FS",
+        "name" : "Full Stack Web Development",
         "type" : "training"
     },
     "Course2": {
         "date" : "24-12-2019",
-        "name" : "ML",
+        "name" : "Machine Learning",
         "type" : "training"
     }
 }
 
-writeUserData("bTvIo6kdRyRzJhTwUReQMmxdzD72", "Mohammad Khan", "zmmsayeed1@gmail.com", "1DT15CS080", courses);
+writeUserData("0Y4Gn79GxiOSH4l3cr1NdMlBKwG2", "Rafa Zamier", "rafazamier1@gmail.com", "1DT15CS088", courses);

@@ -18,8 +18,6 @@ var config = {
 firebase.initializeApp(config);
 
   
-
-
 var ds = new DataService();
 
 class App extends Component {
