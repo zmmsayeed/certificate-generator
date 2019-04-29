@@ -2,12 +2,12 @@ var firebase = require('firebase');
 
 // Initialize Firebase
 var config = {
-    apiKey: "AIzaSyDqGAiZ4ClvA1HnPHeL9nKdlb4dQ-D3Vpw",
-    authDomain: "certificate-generator-7911d.firebaseapp.com",
-    databaseURL: "https://certificate-generator-7911d.firebaseio.com",
-    projectId: "certificate-generator-7911d",
-    storageBucket: "certificate-generator-7911d.appspot.com",
-    messagingSenderId: "971330613453"
+    apiKey: "AIzaSyBLn7SLoHSdqgwOHiEqME6J_YviE-4LYgo",
+    authDomain: "some-project-8ade1.firebaseapp.com",
+    databaseURL: "https://some-project-8ade1.firebaseio.com",
+    projectId: "some-project-8ade1",
+    storageBucket: "some-project-8ade1.appspot.com",
+    messagingSenderId: "532452740365"
   };
   firebase.initializeApp(config);
 
@@ -36,4 +36,4 @@ var courses = {
     }
 }
 
-writeUserData("0Y4Gn79GxiOSH4l3cr1NdMlBKwG2", "Rafa Zamier", "rafazamier1@gmail.com", "1DT15CS088", courses);
+writeUserData("0Y4Gn79GxiOSH4l3cr1NdMlBKwG2", "Zimam", "zmmsayeed@gmail.com", "1DT15CS127", courses);
